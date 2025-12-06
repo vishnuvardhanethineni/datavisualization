@@ -1,0 +1,6 @@
+print(pd.get_dummies(df,columns=['Property_Area'],drop_first=True))
+# ord_enc=OrdinalEncoder(categories=[['Urban','Semiurban','Rural']])
+# df['Property_Area_Encoded']=ord_enc.fit_transform(df[['Property_Area']])
+# print(df[['Property_Area','Property_Area_Encoded']])
+# df['education_encoded']=LabelEncoder().fit_transform(df['Education'])
+# print(df[['Education','education_encoded']])
